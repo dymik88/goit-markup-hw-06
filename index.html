@@ -420,12 +420,12 @@
         </div>
           <div class="footer-form">
             <h2 class="footer-form-title"> Подпишитесь на рассылку</h2>
-            <div class="footer-form-field">
+            <form  action='#'class="footer-form-field">
               <label for="comment-email" class="modal-input-text"></label>
-              <textarea name="user-text" id="comment-email" class="modal-input-email" placeholder="E-mail"></textarea>
+              <input name="user-text" id="comment-email" class="modal-input-email" placeholder="E-mail">
               <button type="submit" class="button-email">Подписаться 
                 <svg class="footer-icon-send" width="24px" height="24px"><use href="./img/icons.svg#icon-send"></use></svg></button>
-            </div>
+              </form>
           </div>
       </div>
 
@@ -488,7 +488,7 @@
           <textarea name="user-text" id="comment" class="modal-input-comment" placeholder="Введите текст" ></textarea>
         </div>
 
-        <div class="modal-form-field">
+        <div class="modal-form-checkbox">
           <input type="checkbox" id="checkbox-text"name="policy" class="modal-contract-button visually-hidden">
           <label for="checkbox-text" id="checkbox-text" class="modal-label-contract"> <span><svg class="icon-check" width="16px" height="15px"><use href='./img/icons.svg#icon-checked'  ></use></svg></span>
                     Соглашаюсь с рассылкой и принимаю <a href="" class="modal-contract-text"> Условия договора </a>
